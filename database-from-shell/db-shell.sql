@@ -137,3 +137,14 @@ homework8=# SELECT * FROM movies;
         4 | Rudy Habibi   | Romance
         5 | Dear Nathan   | Romance
 (5 rows)
+
+-- SETELAH MELAKUKA MIGRATION COLUMN "AGE"
+homework8=# SELECT * FROM actors;
+ actor_id | first_name | last_name |  gender   | age
+----------+------------+-----------+-----------+-----
+        1 | Iko        | Uwais     | Laki Laki |
+        5 | Jefri      | Nichol    | Laki Laki |
+        4 | Chelsea    | Islan     | Perempuan |
+        3 | Pevita     | Pearch    | Perempuan |
+        2 | Joe        | Taslim    | Laki Laki |
+(5 rows)
